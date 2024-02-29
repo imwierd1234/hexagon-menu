@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="menu">
+        <div class="menuToggle"><ion-icon name="flower-outline"></ion-icon></div>
+        <li style="--i:0;--clr: #ff2972;">
+            <a href="#"><ion-icon name="rose-outline"></ion-icon></a>
+        </li>
+        <li style="--i:1;--clr: #fee800;">
+            <a href="https://www.youtube.com/watch?v=MQgjMttogII&t=1793s"><ion-icon name="star-outline"></ion-icon></a>
+        </li>
+        <li style="--i:2;--clr: #04fc43;">
+            <a href="https://www.youtube.com/watch?v=CX4MMPC_rAk"><ion-icon name="sparkles-outline"></ion-icon></a>
+        </li>
+        <li style="--i:3;--clr: #fe00f1;">
+            <a href="https://www.youtube.com/watch?v=BIpTwnng4uE&list=RDBIpTwnng4uE&start_radio=1"><ion-icon name="sunny-outline"></ion-icon></a>
+        </li>
+        <li style="--i:4;--clr: #00b0fe;">
+            <a href="https://www.youtube.com/watch?v=LtzW9acsJg0"><ion-icon name="heart-outline"></ion-icon></a>
+        </li>
+        <li style="--i:5;--clr: #fea600;">
+            <a href="https://www.youtube.com/watch?v=skHfLY-L2Lw"><ion-icon name="infinite-outline"></ion-icon></a>
+        </li>
+        <li style="--i:6;--clr: #a529ff;">
+            <a href="https://www.youtube.com/watch?v=4-clxtJzkjY&list=RD4-clxtJzkjY&start_radio=1"><ion-icon name="moon-outline"></ion-icon></a>
+        </li>
+        <li style="--i:7;--clr: #01bdab;">
+            <a href="https://www.youtube.com/watch?v=EiekaFGHaHs"><ion-icon name="brush-outline"></ion-icon></a>
+        </li>
+    </ul>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    let menuToggle = document.querySelector('.menuToggle');
+    let menu = document.querySelector('.menu');
+    menuToggle.onclick = function(){
+        menu.classList.toggle('active');
+    }
+</script>
+    
+</body>
+</html>
